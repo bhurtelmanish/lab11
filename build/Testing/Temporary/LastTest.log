@@ -1,0 +1,894 @@
+Start testing: Oct 31 04:50 UTC
+----------------------------------------------------------
+1/33 Testing: CardTest.ToStringUsesShortNames
+1/33 Test: CardTest.ToStringUsesShortNames
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=CardTest.ToStringUsesShortNames" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"CardTest.ToStringUsesShortNames" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CardTest.ToStringUsesShortNames
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CardTest
+[ RUN      ] CardTest.ToStringUsesShortNames
+[       OK ] CardTest.ToStringUsesShortNames (0 ms)
+[----------] 1 test from CardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CardTest.ToStringUsesShortNames" end time: Oct 31 04:50 UTC
+"CardTest.ToStringUsesShortNames" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/33 Testing: DeckTest.NewDeckHasFiftyTwoCards
+2/33 Test: DeckTest.NewDeckHasFiftyTwoCards
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.NewDeckHasFiftyTwoCards" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.NewDeckHasFiftyTwoCards" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.NewDeckHasFiftyTwoCards
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.NewDeckHasFiftyTwoCards
+[       OK ] DeckTest.NewDeckHasFiftyTwoCards (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.NewDeckHasFiftyTwoCards" end time: Oct 31 04:50 UTC
+"DeckTest.NewDeckHasFiftyTwoCards" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/33 Testing: DeckTest.DealsEveryCardExactlyOnce
+3/33 Test: DeckTest.DealsEveryCardExactlyOnce
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.DealsEveryCardExactlyOnce" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.DealsEveryCardExactlyOnce" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.DealsEveryCardExactlyOnce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.DealsEveryCardExactlyOnce
+[       OK ] DeckTest.DealsEveryCardExactlyOnce (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.DealsEveryCardExactlyOnce" end time: Oct 31 04:50 UTC
+"DeckTest.DealsEveryCardExactlyOnce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/33 Testing: DeckTest.ShufflePreservesTheCards
+4/33 Test: DeckTest.ShufflePreservesTheCards
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.ShufflePreservesTheCards" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.ShufflePreservesTheCards" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.ShufflePreservesTheCards
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.ShufflePreservesTheCards
+[       OK ] DeckTest.ShufflePreservesTheCards (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.ShufflePreservesTheCards" end time: Oct 31 04:50 UTC
+"DeckTest.ShufflePreservesTheCards" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/33 Testing: DeckTest.CopyIsIndependentOfTheOriginal
+5/33 Test: DeckTest.CopyIsIndependentOfTheOriginal
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.CopyIsIndependentOfTheOriginal" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.CopyIsIndependentOfTheOriginal" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.CopyIsIndependentOfTheOriginal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.CopyIsIndependentOfTheOriginal
+[       OK ] DeckTest.CopyIsIndependentOfTheOriginal (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.CopyIsIndependentOfTheOriginal" end time: Oct 31 04:50 UTC
+"DeckTest.CopyIsIndependentOfTheOriginal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/33 Testing: DeckTest.AssignmentCopiesAndKeepsDecksIndependent
+6/33 Test: DeckTest.AssignmentCopiesAndKeepsDecksIndependent
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.AssignmentCopiesAndKeepsDecksIndependent" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.AssignmentCopiesAndKeepsDecksIndependent" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.AssignmentCopiesAndKeepsDecksIndependent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.AssignmentCopiesAndKeepsDecksIndependent
+[       OK ] DeckTest.AssignmentCopiesAndKeepsDecksIndependent (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.AssignmentCopiesAndKeepsDecksIndependent" end time: Oct 31 04:50 UTC
+"DeckTest.AssignmentCopiesAndKeepsDecksIndependent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/33 Testing: DeckTest.SelfAssignmentIsSafe
+7/33 Test: DeckTest.SelfAssignmentIsSafe
+Command: "/home/ubuntu/lab11/build/tests/deck_tests" "--gtest_filter=DeckTest.SelfAssignmentIsSafe" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"DeckTest.SelfAssignmentIsSafe" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DeckTest.SelfAssignmentIsSafe
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DeckTest
+[ RUN      ] DeckTest.SelfAssignmentIsSafe
+[       OK ] DeckTest.SelfAssignmentIsSafe (0 ms)
+[----------] 1 test from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DeckTest.SelfAssignmentIsSafe" end time: Oct 31 04:50 UTC
+"DeckTest.SelfAssignmentIsSafe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/33 Testing: CardOperatorTest.EqualityComparesRankAndSuit
+8/33 Test: CardOperatorTest.EqualityComparesRankAndSuit
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=CardOperatorTest.EqualityComparesRankAndSuit" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"CardOperatorTest.EqualityComparesRankAndSuit" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CardOperatorTest.EqualityComparesRankAndSuit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CardOperatorTest
+[ RUN      ] CardOperatorTest.EqualityComparesRankAndSuit
+[       OK ] CardOperatorTest.EqualityComparesRankAndSuit (0 ms)
+[----------] 1 test from CardOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"CardOperatorTest.EqualityComparesRankAndSuit" end time: Oct 31 04:50 UTC
+"CardOperatorTest.EqualityComparesRankAndSuit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/33 Testing: CardOperatorTest.NotEqualComesFromEquality
+9/33 Test: CardOperatorTest.NotEqualComesFromEquality
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=CardOperatorTest.NotEqualComesFromEquality" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"CardOperatorTest.NotEqualComesFromEquality" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CardOperatorTest.NotEqualComesFromEquality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CardOperatorTest
+[ RUN      ] CardOperatorTest.NotEqualComesFromEquality
+[       OK ] CardOperatorTest.NotEqualComesFromEquality (0 ms)
+[----------] 1 test from CardOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CardOperatorTest.NotEqualComesFromEquality" end time: Oct 31 04:50 UTC
+"CardOperatorTest.NotEqualComesFromEquality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/33 Testing: CardOperatorTest.OrderIsRankThenSuit
+10/33 Test: CardOperatorTest.OrderIsRankThenSuit
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=CardOperatorTest.OrderIsRankThenSuit" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"CardOperatorTest.OrderIsRankThenSuit" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CardOperatorTest.OrderIsRankThenSuit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CardOperatorTest
+[ RUN      ] CardOperatorTest.OrderIsRankThenSuit
+[       OK ] CardOperatorTest.OrderIsRankThenSuit (0 ms)
+[----------] 1 test from CardOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CardOperatorTest.OrderIsRankThenSuit" end time: Oct 31 04:50 UTC
+"CardOperatorTest.OrderIsRankThenSuit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/33 Testing: CardOperatorTest.StreamWritesShortText
+11/33 Test: CardOperatorTest.StreamWritesShortText
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=CardOperatorTest.StreamWritesShortText" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"CardOperatorTest.StreamWritesShortText" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CardOperatorTest.StreamWritesShortText
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CardOperatorTest
+[ RUN      ] CardOperatorTest.StreamWritesShortText
+[       OK ] CardOperatorTest.StreamWritesShortText (0 ms)
+[----------] 1 test from CardOperatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CardOperatorTest.StreamWritesShortText" end time: Oct 31 04:50 UTC
+"CardOperatorTest.StreamWritesShortText" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/33 Testing: HandTest.StartsEmpty
+12/33 Test: HandTest.StartsEmpty
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.StartsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.StartsEmpty" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.StartsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.StartsEmpty
+[       OK ] HandTest.StartsEmpty (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.StartsEmpty" end time: Oct 31 04:50 UTC
+"HandTest.StartsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/33 Testing: HandTest.PlusEqualsAppendsInOrder
+13/33 Test: HandTest.PlusEqualsAppendsInOrder
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.PlusEqualsAppendsInOrder" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.PlusEqualsAppendsInOrder" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.PlusEqualsAppendsInOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.PlusEqualsAppendsInOrder
+[       OK ] HandTest.PlusEqualsAppendsInOrder (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.PlusEqualsAppendsInOrder" end time: Oct 31 04:50 UTC
+"HandTest.PlusEqualsAppendsInOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/33 Testing: HandTest.PlusEqualsReturnsTheSameHand
+14/33 Test: HandTest.PlusEqualsReturnsTheSameHand
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.PlusEqualsReturnsTheSameHand" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.PlusEqualsReturnsTheSameHand" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.PlusEqualsReturnsTheSameHand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.PlusEqualsReturnsTheSameHand
+[       OK ] HandTest.PlusEqualsReturnsTheSameHand (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.PlusEqualsReturnsTheSameHand" end time: Oct 31 04:50 UTC
+"HandTest.PlusEqualsReturnsTheSameHand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/33 Testing: HandTest.ClearEmptiesTheHand
+15/33 Test: HandTest.ClearEmptiesTheHand
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.ClearEmptiesTheHand" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.ClearEmptiesTheHand" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.ClearEmptiesTheHand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.ClearEmptiesTheHand
+[       OK ] HandTest.ClearEmptiesTheHand (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.ClearEmptiesTheHand" end time: Oct 31 04:50 UTC
+"HandTest.ClearEmptiesTheHand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/33 Testing: HandTest.CopyIsIndependent
+16/33 Test: HandTest.CopyIsIndependent
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.CopyIsIndependent" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.CopyIsIndependent" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.CopyIsIndependent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.CopyIsIndependent
+[       OK ] HandTest.CopyIsIndependent (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.CopyIsIndependent" end time: Oct 31 04:50 UTC
+"HandTest.CopyIsIndependent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/33 Testing: HandTest.StreamWritesCardsSeparatedBySpaces
+17/33 Test: HandTest.StreamWritesCardsSeparatedBySpaces
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.StreamWritesCardsSeparatedBySpaces" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.StreamWritesCardsSeparatedBySpaces" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.StreamWritesCardsSeparatedBySpaces
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.StreamWritesCardsSeparatedBySpaces
+[       OK ] HandTest.StreamWritesCardsSeparatedBySpaces (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.StreamWritesCardsSeparatedBySpaces" end time: Oct 31 04:50 UTC
+"HandTest.StreamWritesCardsSeparatedBySpaces" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/33 Testing: HandTest.StreamWritesNothingForAnEmptyHand
+18/33 Test: HandTest.StreamWritesNothingForAnEmptyHand
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandTest.StreamWritesNothingForAnEmptyHand" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandTest.StreamWritesNothingForAnEmptyHand" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandTest.StreamWritesNothingForAnEmptyHand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandTest
+[ RUN      ] HandTest.StreamWritesNothingForAnEmptyHand
+[       OK ] HandTest.StreamWritesNothingForAnEmptyHand (0 ms)
+[----------] 1 test from HandTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandTest.StreamWritesNothingForAnEmptyHand" end time: Oct 31 04:50 UTC
+"HandTest.StreamWritesNothingForAnEmptyHand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/33 Testing: HandValueTest.AceAndKingIsTwentyOne
+19/33 Test: HandValueTest.AceAndKingIsTwentyOne
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandValueTest.AceAndKingIsTwentyOne" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandValueTest.AceAndKingIsTwentyOne" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandValueTest.AceAndKingIsTwentyOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandValueTest
+[ RUN      ] HandValueTest.AceAndKingIsTwentyOne
+[       OK ] HandValueTest.AceAndKingIsTwentyOne (0 ms)
+[----------] 1 test from HandValueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandValueTest.AceAndKingIsTwentyOne" end time: Oct 31 04:50 UTC
+"HandValueTest.AceAndKingIsTwentyOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/33 Testing: HandValueTest.FaceCardsCountTen
+20/33 Test: HandValueTest.FaceCardsCountTen
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandValueTest.FaceCardsCountTen" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandValueTest.FaceCardsCountTen" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandValueTest.FaceCardsCountTen
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandValueTest
+[ RUN      ] HandValueTest.FaceCardsCountTen
+[       OK ] HandValueTest.FaceCardsCountTen (0 ms)
+[----------] 1 test from HandValueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandValueTest.FaceCardsCountTen" end time: Oct 31 04:50 UTC
+"HandValueTest.FaceCardsCountTen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/33 Testing: HandValueTest.TwoAcesAreTwelve
+21/33 Test: HandValueTest.TwoAcesAreTwelve
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandValueTest.TwoAcesAreTwelve" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandValueTest.TwoAcesAreTwelve" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandValueTest.TwoAcesAreTwelve
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandValueTest
+[ RUN      ] HandValueTest.TwoAcesAreTwelve
+[       OK ] HandValueTest.TwoAcesAreTwelve (0 ms)
+[----------] 1 test from HandValueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandValueTest.TwoAcesAreTwelve" end time: Oct 31 04:50 UTC
+"HandValueTest.TwoAcesAreTwelve" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/33 Testing: HandValueTest.BustIsTheRealTotal
+22/33 Test: HandValueTest.BustIsTheRealTotal
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandValueTest.BustIsTheRealTotal" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandValueTest.BustIsTheRealTotal" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandValueTest.BustIsTheRealTotal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandValueTest
+[ RUN      ] HandValueTest.BustIsTheRealTotal
+[       OK ] HandValueTest.BustIsTheRealTotal (0 ms)
+[----------] 1 test from HandValueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandValueTest.BustIsTheRealTotal" end time: Oct 31 04:50 UTC
+"HandValueTest.BustIsTheRealTotal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/33 Testing: HandBlackjackTest.TwoCardTwentyOneIsBlackjack
+23/33 Test: HandBlackjackTest.TwoCardTwentyOneIsBlackjack
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandBlackjackTest.TwoCardTwentyOneIsBlackjack" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandBlackjackTest.TwoCardTwentyOneIsBlackjack" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandBlackjackTest.TwoCardTwentyOneIsBlackjack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandBlackjackTest
+[ RUN      ] HandBlackjackTest.TwoCardTwentyOneIsBlackjack
+[       OK ] HandBlackjackTest.TwoCardTwentyOneIsBlackjack (0 ms)
+[----------] 1 test from HandBlackjackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HandBlackjackTest.TwoCardTwentyOneIsBlackjack" end time: Oct 31 04:50 UTC
+"HandBlackjackTest.TwoCardTwentyOneIsBlackjack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/33 Testing: HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack
+24/33 Test: HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandBlackjackTest
+[ RUN      ] HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack
+[       OK ] HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack (0 ms)
+[----------] 1 test from HandBlackjackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack" end time: Oct 31 04:50 UTC
+"HandBlackjackTest.ThreeCardTwentyOneIsNotBlackjack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/33 Testing: HandBustTest.OverTwentyOneIsBust
+25/33 Test: HandBustTest.OverTwentyOneIsBust
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=HandBustTest.OverTwentyOneIsBust" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"HandBustTest.OverTwentyOneIsBust" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = HandBustTest.OverTwentyOneIsBust
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HandBustTest
+[ RUN      ] HandBustTest.OverTwentyOneIsBust
+[       OK ] HandBustTest.OverTwentyOneIsBust (0 ms)
+[----------] 1 test from HandBustTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"HandBustTest.OverTwentyOneIsBust" end time: Oct 31 04:50 UTC
+"HandBustTest.OverTwentyOneIsBust" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/33 Testing: MyHandTable.Row1
+26/33 Test: MyHandTable.Row1
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row1" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row1" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row1
+[       OK ] MyHandTable.Row1 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row1" end time: Oct 31 04:50 UTC
+"MyHandTable.Row1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/33 Testing: MyHandTable.Row2
+27/33 Test: MyHandTable.Row2
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row2" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row2" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row2
+[       OK ] MyHandTable.Row2 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row2" end time: Oct 31 04:50 UTC
+"MyHandTable.Row2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/33 Testing: MyHandTable.Row3
+28/33 Test: MyHandTable.Row3
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row3" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row3" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row3
+[       OK ] MyHandTable.Row3 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row3" end time: Oct 31 04:50 UTC
+"MyHandTable.Row3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/33 Testing: MyHandTable.Row4
+29/33 Test: MyHandTable.Row4
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row4" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row4" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row4
+[       OK ] MyHandTable.Row4 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row4" end time: Oct 31 04:50 UTC
+"MyHandTable.Row4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/33 Testing: MyHandTable.Row5
+30/33 Test: MyHandTable.Row5
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row5" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row5" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row5
+[       OK ] MyHandTable.Row5 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row5" end time: Oct 31 04:50 UTC
+"MyHandTable.Row5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/33 Testing: MyHandTable.Row6
+31/33 Test: MyHandTable.Row6
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row6" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row6" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row6
+[       OK ] MyHandTable.Row6 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row6" end time: Oct 31 04:50 UTC
+"MyHandTable.Row6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/33 Testing: MyHandTable.Row7
+32/33 Test: MyHandTable.Row7
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row7" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row7" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row7
+[       OK ] MyHandTable.Row7 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row7" end time: Oct 31 04:50 UTC
+"MyHandTable.Row7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/33 Testing: MyHandTable.Row8
+33/33 Test: MyHandTable.Row8
+Command: "/home/ubuntu/lab11/build/tests/hand_tests" "--gtest_filter=MyHandTable.Row8" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/lab11/build/tests
+"MyHandTable.Row8" start time: Oct 31 04:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/ubuntu/lab11/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MyHandTable.Row8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyHandTable
+[ RUN      ] MyHandTable.Row8
+[       OK ] MyHandTable.Row8 (0 ms)
+[----------] 1 test from MyHandTable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MyHandTable.Row8" end time: Oct 31 04:50 UTC
+"MyHandTable.Row8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 31 04:50 UTC

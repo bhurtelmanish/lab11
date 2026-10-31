@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/arcade.dir/app/main.cpp.o -o arcade  libarcade_lib.a 

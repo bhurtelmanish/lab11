@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hand_tests.dir/test_hand.cpp.o -o hand_tests  ../libarcade_lib.a ../lib/libgtest_main.a ../lib/libgtest.a 

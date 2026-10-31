@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarcade_lib.a CMakeFiles/arcade_lib.dir/src/blackjack.cpp.o CMakeFiles/arcade_lib.dir/src/card.cpp.o CMakeFiles/arcade_lib.dir/src/deck.cpp.o CMakeFiles/arcade_lib.dir/src/hand.cpp.o CMakeFiles/arcade_lib.dir/src/input.cpp.o
+/usr/bin/ranlib libarcade_lib.a

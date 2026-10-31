@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/lab11/build/tests/deck_tests[1]_tests.cmake")
+  include("/home/ubuntu/lab11/build/tests/deck_tests[1]_tests.cmake")
+else()
+  add_test(deck_tests_NOT_BUILT deck_tests_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/lab11/build/tests/hand_tests[1]_tests.cmake")
+  include("/home/ubuntu/lab11/build/tests/hand_tests[1]_tests.cmake")
+else()
+  add_test(hand_tests_NOT_BUILT hand_tests_NOT_BUILT)
+endif()

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/deck_tests.dir/test_deck.cpp.o -o deck_tests  ../libarcade_lib.a ../lib/libgtest_main.a ../lib/libgtest.a 

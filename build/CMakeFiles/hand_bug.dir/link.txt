@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hand_bug.dir/gdb/hand_bug.cpp.o CMakeFiles/hand_bug.dir/src/card.cpp.o -o hand_bug 
